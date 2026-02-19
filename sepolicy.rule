@@ -1,0 +1,6 @@
+allow thermal_core sys_thermalzone_o dir { search read getattr open }
+allow thermal_core sys_thermalzone_p dir { search read getattr open }
+allow thermal_core sys_thermalzone_q dir { search read getattr open }
+allow thermal_core sys_md_ntcinfo file { read getattr open }
+allow thermal_core sys_ap_ntcinfo file { read getattr open }
+allow thermal_core sys_pa_ntcinfo file { read getattr open }
