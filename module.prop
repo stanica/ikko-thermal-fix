@@ -2,5 +2,5 @@ id=thermal_selinux_fix
 name=Thermal SELinux Fix
 version=v1.0
 versionCode=1
-author=ikko-research
+author=orville
 description=Fixes SELinux policy bug preventing thermal_core from reading zones 13-15 (md, ap_ntc, ltepa_ntc). Adds missing allow rules for custom thermal zone types.
